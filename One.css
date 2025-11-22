@@ -1,0 +1,22 @@
+
+
+
+
+body {
+    height: 10vw;
+    width: 10vw;
+    margin-left: 800px;
+    margin-top: 350px;
+    padding: 0;
+    border-radius: 50%;
+    border: 5px solid #fdfafa;
+    border-top-color: #060606;
+    background-color: rgb(9, 10, 10);
+    animation: rotate 1s infinite;
+    overflow: hidden;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
